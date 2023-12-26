@@ -28,8 +28,8 @@ class Config(object):
     # pyro client config
     API_ID    = os.environ.get("API_ID", "28643132")
     API_HASH  = os.environ.get("API_HASH", "510c3009ea589830a89e045bf8aae656")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "5999105365:AAG9diYsXmqPSkq54XcBojguCWDgWYOuchk") 
-   
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "5999105365:AAGmbQZWDxPCTyhOOLV-fM1nU0NiQXY-eiY") 
+
     # database config
     DB_NAME = os.environ.get("DB_NAME","sui:sui")     
     DB_URL  = os.environ.get("DB_URL","mongodb+srv://sui:sui@cluster0.fmobrpu.mongodb.net/?retryWrites=true&w=majority")
